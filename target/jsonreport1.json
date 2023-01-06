@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9072210700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User have to login with valid user id and password in omniapp URL",
+            "match": {
+              "location": "GtmImo_StepDefinition.user_have_to_login_with_valid_user_id_and_password_in_omniapp_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3835460600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to select process name and enter the workitem number need to process",
+            "match": {
+              "location": "GtmImo_StepDefinition.user_have_to_select_process_name_and_enter_the_workitem_number_need_to_process()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-05T10:35:58.383Z",
+        "line": 17,
+        "name": "To check the process is in end stage",
+        "description": "",
+        "id": "gtm-imo-queue-funcionalities;to-check-the-process-is-in-end-stage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3939856400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User have to be in end stage",
+            "match": {
+              "location": "GtmImo_StepDefinition.user_have_to_be_in_end_stage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end"
+          }
+        ]
+      }
+    ],
+    "name": "GTM_IMO Queue funcionalities",
+    "description": "",
+    "id": "gtm-imo-queue-funcionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/imo.feature",
+    "tags": []
+  }
+]
